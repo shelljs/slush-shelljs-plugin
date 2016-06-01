@@ -1,6 +1,6 @@
 {
   "name": "slush-shelljs-plugin",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A Slush generator to generate a shelljs plugin.",
   "files": [
     "plugin"
