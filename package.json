@@ -2,6 +2,9 @@
   "name": "slush-shelljs-plugin",
   "version": "1.0.2",
   "description": "A Slush generator to generate a shelljs plugin.",
+  "files": [
+    "plugin"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/shelljs/slush-shelljs-plugin.git"
