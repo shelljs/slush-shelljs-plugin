@@ -20,8 +20,7 @@ gulp.task('default', function(done) {
       message: 'What is your github username:',
     }])
     .then(function(answers) {
-      console.log(__dirname + '/plugin/**');
-      gulp.src(__dirname + '/plugin/**')
+      gulp.src(__dirname + '/plugin/**', { dot: true })
         .pipe(template(answers, { interpolate: /<%=([\s\S]+?)%>/g }))
         .pipe(conflict('./'))
         .pipe(gulp.dest('./'))
